@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\CloudDbTestSPD011.props" />
+</Project>
