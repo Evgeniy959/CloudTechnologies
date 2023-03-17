@@ -7,7 +7,6 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<ApplicationDbContext>();
 var app = builder.Build();
-//TableGDP data1 = new TableGDP();
 
 app.MapGet("/", () => "Hello World!");
 app.MapGet("/all", async (ApplicationDbContext db) =>
@@ -53,8 +52,7 @@ app.MapGet("/delete", async (int id, ApplicationDbContext db) =>
 app.MapPost("/update", async (TableGDP data, ApplicationDbContext db) =>
 {
     TableGDP dataNew = db.TableGDP.Find(data.Id);
-    //TableGDP dataNew = db.TableGDP.FirstOrDefault(x => x.Country == data.Country);
-    if (data != null)
+    if (dataNew != null)
     {
         dataNew.Rating = data.Rating;
         dataNew.Country = data.Country;
