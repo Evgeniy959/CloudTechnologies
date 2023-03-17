@@ -24,7 +24,7 @@ app.MapGet("/find", async (int id, ApplicationDbContext db) =>
 {
     return await db.TableGDP.Where(x => x.Id == id).ToListAsync();
 });
-app.MapGet("/delete", async (int id, ApplicationDbContext db) =>
+app.MapGet("/Delete", async (int id, ApplicationDbContext db) =>
 {
     TableGDP data = db.TableGDP.Find(id);
     if (data != null)
@@ -38,7 +38,7 @@ app.MapGet("/delete", async (int id, ApplicationDbContext db) =>
 app.MapPost("/update", async (TableGDP data, ApplicationDbContext db) =>
 {
     TableGDP dataNew = db.TableGDP.Find(data.Id);
-    if (data != null)
+    if (dataNew != null)
     {
         dataNew.Rating = data.Rating;
         dataNew.Country = data.Country;
