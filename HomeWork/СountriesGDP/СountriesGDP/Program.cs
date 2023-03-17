@@ -7,9 +7,8 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<ApplicationDbContext>();
 var app = builder.Build();
-//TableGDP data1 = new TableGDP();
 
-app.MapGet("/", () => "Hello World!");
+app.MapGet("/", () => "Table GDP");
 app.MapGet("/all", async (ApplicationDbContext db) =>
 {
     return await db.TableGDP.ToListAsync();
@@ -36,24 +35,9 @@ app.MapGet("/delete", async (int id, ApplicationDbContext db) =>
     return await db.TableGDP.ToListAsync();
 });
 
-/*app.MapGet("/update", async (int rating, string country, string countryNew, double volumeGDP, ApplicationDbContext db) =>
-{
-    //TableGDP dataNew = db.TableGDP.Find(id);
-    //TableGDP dataNew = db.TableGDP.Where(x => x.Country == country).FirstOrDefault();
-    TableGDP dataNew = db.TableGDP.FirstOrDefault(x => x.Country == country);
-    if (dataNew != null)
-    {
-        dataNew.Rating = rating;
-        dataNew.Country = countryNew;
-        dataNew.VolumeGDP = volumeGDP;
-        await db.SaveChangesAsync();
-    }
-    return await db.TableGDP.ToListAsync();
-});*/
 app.MapPost("/update", async (TableGDP data, ApplicationDbContext db) =>
 {
     TableGDP dataNew = db.TableGDP.Find(data.Id);
-    //TableGDP dataNew = db.TableGDP.FirstOrDefault(x => x.Country == data.Country);
     if (data != null)
     {
         dataNew.Rating = data.Rating;
