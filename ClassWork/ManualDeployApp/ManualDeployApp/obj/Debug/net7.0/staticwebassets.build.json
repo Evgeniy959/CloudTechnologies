@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "utOBaNd/DodJePb2yKh2rSLpJvduJjSbC63z9e5dg5o=",
+  "Source": "ManualDeployApp",
+  "BasePath": "_content/ManualDeployApp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
