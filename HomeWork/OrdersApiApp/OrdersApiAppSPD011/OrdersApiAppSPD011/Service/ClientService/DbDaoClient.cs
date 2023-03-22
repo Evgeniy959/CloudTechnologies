@@ -21,7 +21,8 @@ namespace OrdersApiAppSPD011.Service.ClientService
 
         public async Task<Client> DeleteAsync(int id)
         {
-            Client client = db.Clients.Find(id);
+            //Client client = await db.Clients.FindAsync(id);
+            Client client = await db.Clients.SingleOrDefaultAsync(x => x.Id == id);
             if (client != null)
             {
                 db.Clients.Remove(client);
@@ -37,19 +38,15 @@ namespace OrdersApiAppSPD011.Service.ClientService
 
         public async Task<Client> GetAsync(int id)
         {
-            return await db.Clients.FindAsync(id); ; 
+            //return await db.Clients.FindAsync(id); ; 
+            return await db.Clients.SingleOrDefaultAsync(x => x.Id == id);
         }
 
         public async Task<Client> UpdateAsync(Client client)
         {
-            //Client clientNew = await db.Clients.FindAsync(client.Id);
-            Client clientNew = db.Clients.Find(client.Id);
-            if (clientNew != null)
-            {
-                clientNew.Name = client.Name;
-                await db.SaveChangesAsync();
-            }
-            return clientNew;
+            db.Clients.Update(client);
+            await db.SaveChangesAsync();
+            return client;
         }
     }
 }
