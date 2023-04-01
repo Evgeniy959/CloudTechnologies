@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "sKerqrM2fcJR299gfEvyk2zl85LLR5MQB06KuRFWjo8SrwCThZgf3uORS1A57ZD6TdaJ6IV/FHmHCVUFEKBS5w==",
+  "success": true,
+  "projectFilePath": "D:\\Study-11.02.2023\\Study\\Облачные технолгии\\Проекты\\CloudTechnologies\\ClassWork\\ManualAvtoDeployApp\\ManualDeployApp\\ManualDeployApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Пользователь\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.2\\microsoft.visualstudio.azure.containers.tools.targets.1.17.2.nupkg.sha512"
+  ],
+  "logs": []
+}

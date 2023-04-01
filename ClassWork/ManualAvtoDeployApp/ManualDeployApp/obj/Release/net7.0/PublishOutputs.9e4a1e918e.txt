@@ -1,0 +1,7 @@
+D:\Study-11.02.2023\Study\Облачные технолгии\Проекты\CloudTechnologies\ClassWork\ManualDeployApp\ManualDeployApp\obj\Release\net7.0\PubTmp\Out\ManualDeployApp.exe
+D:\Study-11.02.2023\Study\Облачные технолгии\Проекты\CloudTechnologies\ClassWork\ManualDeployApp\ManualDeployApp\obj\Release\net7.0\PubTmp\Out\appsettings.Development.json
+D:\Study-11.02.2023\Study\Облачные технолгии\Проекты\CloudTechnologies\ClassWork\ManualDeployApp\ManualDeployApp\obj\Release\net7.0\PubTmp\Out\appsettings.json
+D:\Study-11.02.2023\Study\Облачные технолгии\Проекты\CloudTechnologies\ClassWork\ManualDeployApp\ManualDeployApp\obj\Release\net7.0\PubTmp\Out\ManualDeployApp.dll
+D:\Study-11.02.2023\Study\Облачные технолгии\Проекты\CloudTechnologies\ClassWork\ManualDeployApp\ManualDeployApp\obj\Release\net7.0\PubTmp\Out\ManualDeployApp.deps.json
+D:\Study-11.02.2023\Study\Облачные технолгии\Проекты\CloudTechnologies\ClassWork\ManualDeployApp\ManualDeployApp\obj\Release\net7.0\PubTmp\Out\ManualDeployApp.runtimeconfig.json
+D:\Study-11.02.2023\Study\Облачные технолгии\Проекты\CloudTechnologies\ClassWork\ManualDeployApp\ManualDeployApp\obj\Release\net7.0\PubTmp\Out\ManualDeployApp.pdb
