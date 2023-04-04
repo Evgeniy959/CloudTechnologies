@@ -1,0 +1,2 @@
+build:
+  dockerfile: ./ManualDeployApp/Dockerfile
