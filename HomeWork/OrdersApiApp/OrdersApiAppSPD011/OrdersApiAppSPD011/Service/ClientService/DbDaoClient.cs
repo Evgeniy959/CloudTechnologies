@@ -5,7 +5,7 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace OrdersApiAppSPD011.Service.ClientService
 {
-    public class DbDaoClient : IDaoClient
+    public class DbDaoClient : IDaoEntity<Client>
     {
         private readonly ApplicationDbContext db;
         public DbDaoClient(ApplicationDbContext db) 
@@ -21,13 +21,17 @@ namespace OrdersApiAppSPD011.Service.ClientService
 
         public async Task<Client> DeleteAsync(int id)
         {
-            //Client client = await db.Clients.FindAsync(id);
             Client client = await db.Clients.SingleOrDefaultAsync(x => x.Id == id);
             if (client != null)
             {
-                db.Clients.Remove(client);
+                db.Clients.Remove(client);                
+                var delOrderProduct = await db.OrderProduct.Where(op => op.Order.ClientId == id).ToListAsync();
+                db.OrderProduct.RemoveRange(delOrderProduct);
+                var delOrders = await db.Orders.Where(o => o.ClientId == id).ToListAsync();
+                db.Orders.RemoveRange(delOrders);
                 await db.SaveChangesAsync();
             }
+            
             return client;
         }
 
@@ -38,7 +42,6 @@ namespace OrdersApiAppSPD011.Service.ClientService
 
         public async Task<Client> GetAsync(int id)
         {
-            //return await db.Clients.FindAsync(id); ; 
             return await db.Clients.SingleOrDefaultAsync(x => x.Id == id);
         }
 

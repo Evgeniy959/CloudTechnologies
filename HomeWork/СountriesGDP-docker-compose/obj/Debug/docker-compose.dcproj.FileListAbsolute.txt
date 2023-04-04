@@ -1,0 +1,15 @@
+D:\Study-11.02.2023\Study\Облачные технолгии\Проекты\СountriesGDP\bin\Debug\СountriesGDP.deps.json
+D:\Study-11.02.2023\Study\Облачные технолгии\Проекты\СountriesGDP\bin\Debug\СountriesGDP.runtimeconfig.json
+D:\Study-11.02.2023\Study\Облачные технолгии\Проекты\СountriesGDP\bin\Debug\appsettings.Development.json
+D:\Study-11.02.2023\Study\Облачные технолгии\Проекты\СountriesGDP\bin\Debug\appsettings.json
+D:\Study-11.02.2023\Study\Облачные технолгии\Проекты\СountriesGDP\bin\Debug\СountriesGDP.exe
+D:\Study-11.02.2023\Study\Облачные технолгии\Проекты\СountriesGDP\bin\Debug\СountriesGDP.dll
+D:\Study-11.02.2023\Study\Облачные технолгии\Проекты\СountriesGDP\bin\Debug\Microsoft.EntityFrameworkCore.dll
+D:\Study-11.02.2023\Study\Облачные технолгии\Проекты\СountriesGDP\bin\Debug\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\Study-11.02.2023\Study\Облачные технолгии\Проекты\СountriesGDP\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Study-11.02.2023\Study\Облачные технолгии\Проекты\СountriesGDP\bin\Debug\Npgsql.dll
+D:\Study-11.02.2023\Study\Облачные технолгии\Проекты\СountriesGDP\bin\Debug\СountriesGDP.pdb
+D:\Study-11.02.2023\Study\Облачные технолгии\Проекты\СountriesGDP\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
+D:\Study-11.02.2023\Study\Облачные технолгии\Проекты\СountriesGDP\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+D:\Study-11.02.2023\Study\Облачные технолгии\Проекты\СountriesGDP\obj\Debug\docker-compose.dcproj.CopyComplete
+D:\Study-11.02.2023\Study\Облачные технолгии\Проекты\СountriesGDP\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll

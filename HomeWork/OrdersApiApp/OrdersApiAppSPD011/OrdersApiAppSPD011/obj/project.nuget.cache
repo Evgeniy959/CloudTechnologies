@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wpcKEIhm+kxVLOGeMjc0TQE76Mo2JdgMmxVPFCroLOGfdhjnoBBKsqZZ2bl//kf2aoiXZKt2ukSfZ7fX0wIA3A==",
+  "dgSpecHash": "tKLmS2om2uSC7lDCGV9HsSjXsmMEorjMur5TRD2Ma9ice63kjXSgxGNzQ9VEclpKYcStt4fSG8FixyZ/afFsDA==",
   "success": true,
-  "projectFilePath": "D:\\Study-11.02.2023\\Study\\Облачные технолгии\\Проекты\\CloudTechnologies\\HomeWork\\OrdersApiApp\\OrdersApiAppSPD011\\OrdersApiAppSPD011\\OrdersApiAppSPD011.csproj",
+  "projectFilePath": "D:\\Study-11.02.2023\\Study\\Облачные технолгии\\Проекты\\OrdersApiApp\\OrdersApiAppSPD011\\OrdersApiAppSPD011\\OrdersApiAppSPD011.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Пользователь\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Пользователь\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.4\\microsoft.entityframeworkcore.7.0.4.nupkg.sha512",
